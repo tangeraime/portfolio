@@ -13,13 +13,16 @@ li a:hover {color: mediumvioletred;
 
 .active {color: darkred;}
 
-ul {list-style-type: none;
+ul {position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;}
 
 /* no internet image */
-.rotate {animation: rotation 8s infinite linear}
+.rotate {animation: rotation 10s infinite linear}
 
 @keyframes rotation {
     from {transfrom:rotate(0deg);}
