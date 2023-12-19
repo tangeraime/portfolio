@@ -1,0 +1,25 @@
+/*---------navigation----------*/
+li {float: left;}
+
+li a {display: block;
+    padding: 8px;
+    color: black;}
+
+li a:hover {color: mediumvioletred;}
+
+.active {color: darkred;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+
+/* no internet image */
+.rotate {animation: rotation 8s infinite linear}
+
+@keyframes rotation {
+    from {transfrom:rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+
+
