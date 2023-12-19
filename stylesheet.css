@@ -2,10 +2,14 @@
 li {float: left;}
 
 li a {display: block;
-    padding: 8px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
     color: black;}
 
-li a:hover {color: mediumvioletred;}
+li a:hover {color: mediumvioletred;
+    text-decoration: underline;
+    font-weight: bold;}
 
 .active {color: darkred;}
 
