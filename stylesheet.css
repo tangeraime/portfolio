@@ -13,11 +13,11 @@ li a {display: block;
     text-decoration: none;
     color: black;}
 
-li a:hover {color: mediumvioletred;
-    text-decoration: underline;
-    font-weight: bold;}
+li a:hover {color: rgb(221, 76, 168);
+    text-decoration: underline;}
 
-.active {color: darkred;}
+.active {color: rgb(102, 0, 48);
+    font-weight: bold;}
 
 ul {position: fixed;
     top: 0;
@@ -28,6 +28,11 @@ ul {position: fixed;
     overflow: hidden;}
 
 /* no internet image */
+#logo {width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;}
+    
 .rotate {animation: rotation 10s infinite linear}
 
 @keyframes rotation {
