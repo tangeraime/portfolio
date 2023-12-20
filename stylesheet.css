@@ -31,7 +31,7 @@ ul {position: fixed;
 #logo {width: 50px;
     height: 45px;
     top: 0;
-    left: 0;}
+    right: 0;}
 
 .rotate {animation: rotation 10s infinite linear}
 
