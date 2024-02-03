@@ -26,8 +26,8 @@ ul {position: fixed;
     padding: 0;
     overflow: hidden;}
 
-/* no-internet image */
-#logo {position: absolute;
+/* apple image */
+#logo {position: fixed;
     width: 55px;
     height: 55px;
     top: 10px;
