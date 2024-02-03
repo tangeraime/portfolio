@@ -13,8 +13,7 @@ li a {display: block;
     text-decoration: none;
     color: black;}
 
-li a:hover {color: rgb(233, 68, 137);
-    text-decoration: underline;}
+li a:hover {color: rgb(233, 68, 137);}
 
 .active {color: rgb(160, 0, 75);
     font-weight: bold;}
