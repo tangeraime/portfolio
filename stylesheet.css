@@ -36,7 +36,7 @@ ul {position: fixed;
 
 #logo:hover {
         /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
+    animation: shake 0.7s;
       
         /* When the animation is finished, start again */
     animation-iteration-count: infinite;
@@ -56,6 +56,13 @@ ul {position: fixed;
     100% { transform: translate(1px, -2px) rotate(-1deg); }
     }
 
+/*----shake--- if want to use, just add class rotate*/
+.rotate {animation: rotation 10s infinite linear}
+
+@keyframes rotation {
+    from {transfrom:rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
 
 /*--------------------------------------FOOTER-----------*/
 footer {position: absolute;
