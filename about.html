@@ -31,10 +31,17 @@
         
         <!------------STYLE for columns---------->
         <style>
-            .column-left {width: 50%;
+            .column-left {float: left;
+                width: 50%;
                 margin-top: 60px;}
 
-            .column-right {width: 50%;}
+            .column-right {float: left;
+                width: 50%;}
+            
+        /* clear floats after the columns */
+            .row:after {content: "";
+                display: table;
+                clear: both;}
         </style>
         <!---------------------------------------->
 
