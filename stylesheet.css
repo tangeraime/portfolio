@@ -11,7 +11,8 @@ li a {display: block;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
-    color: black;}
+    color: black;
+    background-color: white;}
 
 li a:hover {color: rgb(233, 68, 137);}
 
