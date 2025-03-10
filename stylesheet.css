@@ -64,6 +64,54 @@ ul {position: fixed;
     to {transform: rotate(359deg);}
 }
 
+
+/*----------------------------------SIDE BAR NAVI--------------------------------------*/
+.sidebar {
+  height: 100%; /* Full-height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #818181;
+}
+
+/*----------------------------------BODY COLUMNS---------------------------------------*/
+/* container */
+.main-columns {
+    display:block;
+}
+
+/* columns */
+.main-columns > * {
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .main-columns {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 /*--------------------------------------FOOTER-----------*/
 footer {position: absolute;
     left: 0;
